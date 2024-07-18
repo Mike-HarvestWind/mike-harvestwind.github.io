@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Vulf_Sans";
+    src: url(Vulf_Sans-Light.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vulf_Mono";
+    src: url(Vulf_Mono-Bold_Italic_web.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+html, body{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    font-family: "Vulf_Mono";
+    text-align: left;
+    width:auto;
+    font-size: 3.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1.5px solid;
+    border-bottom-width: 95%;
+}
+
+.header img {
+    margin: auto;
+    padding: 25px;
+    list-style: none;
+    float: right;
+    height: 60px;
+    width:65px;
+}
+
+.Links {
+    font-family: "Vulf_Sans";
+    font-size: 2em;
+    font-weight:300;
+    text-decoration: underline;
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 75px;
+    margin-right: 50px;
+}
+
+.essays {
+    width: 45ch;
+    font-family: "Vulf_Sans";
+    margin-top: 50px;
+    margin-left: 75px;
+    font-size: 1.1em;
+    line-height: 1.2;
+}
+
+#footer {
+    margin-top: auto;
+    font-family: "vulf_Sans";
+    text-align: left;
+    font-size: 1em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 1.5px solid;
+    border-top-width: 95%;
+}
+
+a:visited {
+    color: inherit;
+  }
+
+a{
+    color:inherit;
+    text-decoration: none;
+}  
+
+
+
+
