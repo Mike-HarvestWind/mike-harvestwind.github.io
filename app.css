@@ -26,9 +26,9 @@ html, body{
     font-family: "Vulf_Mono";
     text-align: left;
     width:auto;
-    font-size: 3.5em;
+    font-size: 3.0em;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     margin-left: 50px;
     margin-right: 50px;
     border-bottom: 1.5px solid;
@@ -47,13 +47,17 @@ html, body{
 .Links {
     font-family: "Vulf_Sans";
     font-size: 2em;
-    font-weight:300;
-    text-decoration: underline;
+    font-weight:600;
     width: 50%;
     height: auto;
     margin-top: 40px;
     margin-left: 75px;
     margin-right: 50px;
+    text-decoration: underline;
+}
+
+.Links a:hover {
+    color: dimgrey;
 }
 
 .essays {
@@ -61,8 +65,9 @@ html, body{
     font-family: "Vulf_Sans";
     margin-top: 50px;
     margin-left: 75px;
-    font-size: 1.1em;
-    line-height: 1.2;
+    font-size: 1.0em;
+    line-height: 1.1;
+
 }
 
 #footer {
@@ -77,6 +82,11 @@ html, body{
     border-top: 1.5px solid;
     border-top-width: 95%;
 }
+
+#footer a:hover {
+    color: dimgrey;
+}
+
 
 a:visited {
     color: inherit;
