@@ -61,7 +61,7 @@ html, body{
 }
 
 .essays {
-    width: 45ch;
+    width: 50ch;
     font-family: "Vulf_Sans";
     margin-top: 50px;
     margin-left: 75px;
@@ -96,6 +96,7 @@ a{
     color:inherit;
     text-decoration: none;
 }  
+
 
 
 
