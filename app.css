@@ -1,13 +1,6 @@
 @font-face {
-    font-family: "Vulf_Sans";
-    src: url(Vulf_Sans-Light.woff) format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "Vulf_Mono";
-    src: url(Vulf_Mono-Bold_Italic_web.woff) format("woff");
+    font-family: "windsor_light_condensed";
+    src: url(windsor_light_condensed_font.woff) format("woff");
     font-weight: normal;
     font-style: normal;
 }
@@ -23,10 +16,10 @@ html, body{
 }
 
 .header {
-    font-family: "Vulf_Mono";
+    font-family: "windsor_light_condensed";
     text-align: left;
     width:auto;
-    font-size: 3.0em;
+    font-size: 4em;
     padding-top: 20px;
     padding-bottom: 15px;
     margin-left: 50px;
@@ -45,15 +38,16 @@ html, body{
 }
 
 .Links {
-    font-family: "Vulf_Sans";
-    font-size: 2em;
-    font-weight:600;
+    font-family: "windsor_light_condensed";
+    font-size: 2.5em;
+    font-weight:500;
     width: 50%;
     height: auto;
     margin-top: 40px;
     margin-left: 75px;
     margin-right: 50px;
     text-decoration: underline;
+    text-decoration-thickness: 1.5px;
 }
 
 .Links a:hover {
@@ -61,7 +55,7 @@ html, body{
 }
 
 .essays {
-    width: 60ch;
+    max-width: 60ch;
     font-family: "Times New Roman",Times,serif;
     margin-top: 50px;
     margin-left: 75px;
@@ -72,7 +66,7 @@ html, body{
 
 #footer {
     margin-top: auto;
-    font-family: "vulf_Sans";
+    font-family: "windsor_light_condensed";
     text-align: left;
     font-size: 1em;
     padding-top: 20px;
@@ -96,6 +90,7 @@ a{
     color:inherit;
     text-decoration: none;
 }  
+
 
 
 
