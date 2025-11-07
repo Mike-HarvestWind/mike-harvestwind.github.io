@@ -39,7 +39,7 @@ html, body{
 
 @media (max-width: 600px){
     .header {
-        font-size: clamp(1.0em, 3vw, 1.0em);
+        font-size: clamp(1.0em, 1.0vw, 1.0em);
     }
 }
 
@@ -96,6 +96,7 @@ a{
     color:inherit;
     text-decoration: none;
 }  
+
 
 
 
