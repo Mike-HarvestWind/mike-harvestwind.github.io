@@ -37,6 +37,13 @@ html, body{
     width:65px;
 }
 
+@media (max-width: 600px){
+    .header {
+        font-size:1.5rem;
+        line-height:1.1;
+    }
+}
+
 .Links {
     font-family: "windsor_light_condensed";
     font-size: 2.5em;
@@ -90,6 +97,7 @@ a{
     color:inherit;
     text-decoration: none;
 }  
+
 
 
 
