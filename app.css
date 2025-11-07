@@ -61,8 +61,13 @@ html, body{
     margin-left: 75px;
     font-size: 1.0em;
     line-height: 1.1;
-
 }
+
+@media (max-width: 600px) {
+  .essays {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
 
 #footer {
     margin-top: auto;
@@ -90,6 +95,7 @@ a{
     color:inherit;
     text-decoration: none;
 }  
+
 
 
 
