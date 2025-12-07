@@ -50,6 +50,11 @@ html, body{
     .Links * {
         font-size: 6.75vw !important;
     }
+
+    .titles {
+        white-space: nowrap;
+        overflow: hidden;
+    }
 }
 
 .Links {
@@ -130,6 +135,7 @@ a{
     color:inherit;
     text-decoration: none;
 }  
+
 
 
 
